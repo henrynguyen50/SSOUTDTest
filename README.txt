@@ -7,4 +7,4 @@ Setup
 5. python script.py to run 
 
 
-script automates everything except for confirming the DUO MFA on your phone 
+script automates everything except for confirming the DUO MFA on your phone and changing host file
