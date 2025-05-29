@@ -33,7 +33,9 @@ try:
         )
 finally:
     element.click()
-    time.sleep(6) #have to wait for full login then can open other sites
+    element = WebDriverWait(driver, 10).until(
+        EC.presence_of_element_located((By.ID, "pt_pageinfo"))
+    )
 
 #open other sites and test if logged in 
 driver.switch_to.new_window('tab')
