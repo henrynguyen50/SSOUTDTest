@@ -33,7 +33,8 @@ try:
         )
 finally:
     element.click()
-    element = WebDriverWait(driver, 10).until(
+    #then wait for page to load 
+    element = WebDriverWait(driver, 20).until(
         EC.presence_of_element_located((By.ID, "pt_pageinfo"))
     )
 
