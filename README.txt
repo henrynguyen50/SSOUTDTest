@@ -5,6 +5,7 @@ Setup
 3. https://selenium-python.readthedocs.io/installation.html documentation of where to put file and config PATH variable
 4. copy .env.example to your own .env file and input your login credentials
 5. python script.py to run 
-
+Setup Video
+https://youtu.be/EFOPgyNCUvA
 
 script automates everything except for confirming the DUO MFA on your phone and changing host file
